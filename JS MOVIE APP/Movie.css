@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    /* background-color:#FF5733 ; */
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(pexels-irina-iriser-1366957.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.app{
+    border: 2px solid #ff5733;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    background-color: black;
+    position: absolute;
+    margin-top: 5vh;
+    background-color: transparent;
+    
+}
+
+input{
+    width: 290px;
+    height: 5.5vh;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60px;
+    background-color:transparent;
+    color: white;
+}
+
+button{
+    border: none;
+    width: 100px;
+    height: 5.5vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9D08F8;
+    color: white;
+    font-size: 0.92rem;
+    margin-right: 60px;
+    cursor: pointer;
+    
+}
+
+.app input,button{
+    text-align: center;
+}
+
+
+
+/* JAVASCRIPT TE OLUSTURDUGUMUZ HTML ICIN CSS OZELLIKLERI */
+
+.bilgi h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bilgi img{
+    height:190px ;
+    margin-top: 10px;
+    margin-left: 36.2%;
+}
+
+.bilgi h4{
+    text-align: center;
+}
+
+.bilgi h3,p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.uyarı{
+    text-align: center;
+}
+
+/* RESPONSIVE DESIGN  */
+
+@media (max-width:420px){
+   
+
+    .bilgi img{
+        padding: auto;
+    }
+
+    input{
+        position: relative;
+        margin-left: 75px;
+        margin-top: 20px;
+        width: 150px;
+    }
+
+    .app{
+        margin: 0;
+        width: 100%;
+        border: none;
+    }
+
+    input, button{
+        height: 4.5vh;
+    }
+
+    .wrapper{
+        position: relative;
+    }
+
+    #sonuçlar{
+        margin-top: 30px;
+    }
+
+    .açıklama{
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+}
+
+@media (width:360px){
+    input{
+        width: 130px;
+        margin-left: 75px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    button{
+        width: 80px;
+    }
+
+    .açıklama{
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+
+}
+
+
+@media (width:430px){
+    .app{
+        margin: auto;
+        height: 100%;
+        border: none;
+    }
+
+    .açıklama{
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+
+    input{
+        margin-top: 20px;
+        width: 140px;
+        margin-left: 95px;
+    }
+
+    input,button{
+        height: 4.5vh;
+    }
+
+    #sonuçlar{
+        margin-top: 30px;
+    }
+   
+}
+
+@media (width:375px){
+
+    input{
+        margin-top: 20px;
+        width: 115px;
+        margin-left: 95px;
+    }
+
+    input,button{
+        height: 4.5vh;
+    }
+}
+
+
